@@ -536,6 +536,6 @@ width: 100%;
 }
 
 #fancy_s:hover{
-	transform: scale3d(2, 2, 2) rotate(360deg);
-	transition-duration: 2.5s;
+	-moz-transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
+	-moz-transition-duration: 2.5s;
 }
