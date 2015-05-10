@@ -533,4 +533,10 @@ width: 100%;
 	letter-spacing: 5px;
 	font: 80px 'MisoRegular';
 	text-align: center;
+	transform: scale(2, 2);
+	transition-duration: 2s;
+}
+
+#fancy_s:hover{
+	transform: rotate(20deg);
 }
