@@ -538,8 +538,9 @@ width: 100%;
 #fancy_s:hover{
 	-webkit-transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
 	-moz-transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
+	transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
+
 	-webkit-transition-duration: 2.5s;
 	-moz-transition-duration: 2.5s;
-	transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
 	transition-duration: 2.5s;
 }
