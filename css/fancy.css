@@ -566,6 +566,10 @@ h2:hover{
   -o-transition: all 1.8s cubic-bezier(1.000,0.000,0.000,1.000) 0s;
   -ms-transform-origin: center center 0px; 
   -ms-transition: all 1.8s cubic-bezier(1.000,0.000,0.000,1.000) 0s;
+-ms-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg); 
+  -webkit-transform:rotate(360deg); 
+  -o-transform:rotate(360deg);
 
   
 }
