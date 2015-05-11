@@ -545,8 +545,8 @@ width: 100%;
 	transition-duration: 2.5s;
 }
 h2{
-    color: #44ff22;
-    text-shadow: 0 0 3px #33ff66, 0 0 5px #6600FF;
+    color: #222222;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     margin: 1em 0 0.5em 0;
 
 }
