@@ -529,13 +529,17 @@ width: 100%;
 /*cruzas fancy h1*/
 #fancy_s{
 	color: #fff;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	text-shadow: 0 0 5px #010, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #87E8FF, 0 0 30px #87E8FF, 0 0 40px #87E8FF, 0 0 50px #87E8FF, 0 0 75px #87E8FF;
 	letter-spacing: 5px;
 	font: 80px;
 	text-align: center;
 }
 
 #fancy_s:hover{
+	-webkit-transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
 	-moz-transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
+	-webkit-transition-duration: 2.5s;
 	-moz-transition-duration: 2.5s;
+	transform: scale3d(3, 3, 10) rotate3d(0, 1, 0 , 360deg);
+	transition-duration: 2.5s;
 }
