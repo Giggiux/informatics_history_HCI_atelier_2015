@@ -490,7 +490,7 @@ width: 100%;
 }
 
 
-@media all and (max-width: 1100px){
+@media screen and (max-width: 1100px){
 	.row{ 
 		-webkit-flex-direction: column; 
  		 flex-direction: column; 
@@ -574,6 +574,7 @@ width: 100%;
 }
 	
 
+
 .image{
     overflow: hidden;
     position: relative;
@@ -643,6 +644,42 @@ h2:hover{
   -moz-transform:rotateY(360deg); 
   -webkit-transform:rotateY(360deg); 
   -o-transform:rotateY(360deg);
-
   
 }
+
+
+@media screen and (max-width: 800px){
+
+
+	#fancy_s:hover{
+
+
+	    -webkit-transform: scale3d(1, 4, 1) rotate3d(0, 1, 1 , 360deg);
+		-moz-transform: scale3d(1, 4, 1) rotate3d(0, 1, 1, 360deg);
+		transform: scale3d(1, 4, 1) rotate3d(0, 1, 1, 360deg);
+
+		
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		transition-duration: 1s;
+
+	}
+}
+
+@media screen and (max-width: 800px){
+
+	h2:hover{
+
+		-webkit-transform: rotate3d(0, 1, 1 , 90deg) translate(80%, -230%);
+		-moz-transform: rotate3d(0, 1, 1, 90deg) translate(80%, -230%);
+		transform: rotate3d(0, 1, 1, 90deg) translate(80%, -230%);
+
+		-webkit-transition-duration: 1s;
+		-moz-transition-duration: 1s;
+		transition-duration: 1s;
+
+	}
+
+
+}
+
