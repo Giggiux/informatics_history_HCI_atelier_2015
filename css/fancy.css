@@ -499,6 +499,24 @@ width: 100%;
 	}
 
 }
+@media screen and (max-width:600px){
+	.row{
+		-webkit-flex-direction: column;
+		flex-direction: column;
+
+	}
+	.col-full, .col-13, .col-23{
+		-webkit-flex-basis: auto;
+	}
+    .gridContainer {
+        width: 95%;
+    }
+    #navigation ul {
+	   width: 100%;
+     }
+    /* nav */
+
+}
 
 
 .image{
