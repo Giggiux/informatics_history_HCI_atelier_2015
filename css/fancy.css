@@ -531,10 +531,10 @@ width: 100%;
     #navigation ul {
 		width: 100%;
 		padding: 0px 0;
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
-		background: red;
+		background-color: rgba(255,255,255,0.7);
 		
 		
 		
@@ -561,6 +561,12 @@ width: 100%;
 	#navigation ul:hover li {
 		display: block;
 		margin: 0 0 5px;
+
+	}
+	#navigation ul:hover {
+
+		background-color: black;
+
 	}
 	
 	
